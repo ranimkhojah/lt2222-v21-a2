@@ -5,6 +5,7 @@ Assignment 2 from the course LT2222 in the University of Gothenburg's winter 202
 Name: *Ranim Khojah*
 
 
+
 ## High-level Documenation
 
 
@@ -33,7 +34,3 @@ On the other hand, the size of the training data can also affect the accuracy of
 
 ### Bonus B
 The POS tags were incorporated in the features vector by concatenating each word in the context with its corresponding POS tag following the format WORD-POS e.g., pregnancy-NN and pregnant-JJ. This way, the vocabulary that contains the unique features of all NEs will be larger since for example "park-NN" and "park-VB" will be considered as two different features, which was not the case when POS tags were not considered. Although not significantly, this process increased the accuracy of the model (judging by the confusion matrix of the model evaluation).
-
-
-
-*Note: the jupyter notebook is the result of executing 20,000 out of 60,000 data points due to limited resources*
